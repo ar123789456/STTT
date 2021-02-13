@@ -9,7 +9,6 @@ class Aspects(models.Model):
     description = models.TextField(max_length=300, verbose_name='Описание')
 
 
-
 class Level(models.Model):
     title = models.CharField(max_length=50, verbose_name='Название уровня')
     description = models.TextField(max_length=300, verbose_name='Описание уровня')
